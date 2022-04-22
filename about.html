@@ -1,4 +1,6 @@
-<!DOCTYPE html> <html> 
+<!DOCTYPE html> 
+<!-- ADD IN BACKGROUND -->
+<html> 
 <style>
 img{
   float:right;
@@ -40,8 +42,36 @@ h3{
 }
 .item2nd{grid-column-start:2}
 </style> 
+
 <title>About Pablo Gomez</title> 
-<header id = "top" style = text-align:center>
+<!--
+<div class="chromestyle" id="chromemenu" style=text-align:left;border:none;>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#" rel="dropmenu1">More About Me</a></li>
+<li><a href="#" rel="dropmenu2">Projects</a></li>
+</ul>
+</div>
+-->
+<!-- 
+<div id="dropmenu1" class="dropmenudiv" style=text-align:left>
+<a href="http://www.dynamicdrive.com/">Dynamic Drive</a>
+<a href="http://www.cssdrive.com">CSS Drive</a>
+<a href="http://www.javascriptkit.com">JavaScript Kit</a>
+</div>
+
+
+
+<div id="dropmenu2" class="dropmenudiv">
+<a href="http://www.cnn.com/">CNN</a>
+<a href="http://www.msnbc.com">MSNBC</a>
+<a href="http://news.bbc.co.uk">BBC News</a>
+</div>
+-->
+<script type="text/javascript">
+cssdropdown.startchrome("chromemenu")
+</script>
+<header id = "top" style = text-align:cneter>
     <div class = "grid-container1">
         <!--
         <nav>
@@ -52,6 +82,13 @@ h3{
             </div>
         </nav>
     -->
+    <div class="item1" style=text-align:left;border:none>
+    <ul>
+<li><a href="index.html">Home</a></li>
+
+<li><a href="#" rel="dropmenu2">Projects</a></li>
+</ul>
+</div>
         <div class="item2nd" style=border-style:none;>
             <h1>Pablo Gomez</h1>
         
@@ -67,7 +104,9 @@ h3{
     
     </div>
     -->
-    
+    <div class="newitem" style=border:none>
+        <p style=padding:10px;font-size:140%><em>Module 4 Project</em></p>
+    </div>
     </div>
     
 
@@ -118,4 +157,3 @@ h3{
 
 
 </html>
-
