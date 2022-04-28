@@ -7,7 +7,10 @@
             grid-template-columns:auto auto auto;
             text-align: center;
         }
- 
+ .item1st{
+     grid-row-start:1;
+     grid-row-end:3;
+ }
  .item4{
      grid-column-start:2;
      grid-row-end:5;
@@ -15,36 +18,68 @@
  }
  
     </style>
-<header>
+    <script>
+      // Create a button element
+      const button = document.createElement('button')
+
+      // Set the button text to 'Can you click me?'
+      button.innerText = 'Can you click me?'
+
+      button.id = 'mainButton'
+
+      // Attach the "click" event to your button
+      button.addEventListener('click', () => {
+        // When there is a "click"
+        // it shows an alert in the browser
+        alert('Oh, you clicked me!')
+      })
+
+      document.body.appendChild(button)
+    </script>
+  
+<!-- Button ref
+<a href ="https://herewecode.io/blog/create-button-javascript/"><button type="button">Can you click me?</button></a>
+-->
+
     <div class="grid-container">
-    <div class="item1">
-    <h3>Go To's</h3>
+    <div class="item1st" style=grid-row-start:>
+    <h3 style=text-align:left>Go To's</h3>
     <ul style="text-align:left;">
-        <li><a href="About.html">More about me</a></li>
-        <li><a href="prejects.html">Projects</a></li>
+        
+    <!-- add a pic and details -->
+        <li><a href="About.html"><button type="button" title="For those who want a little bit more of an overview on how I have been living throughout the years and how it has affected me as a person that I am today." style=color:red;>More About Me</button></a></li>
+        </ul>
+        <p style=text-align:left>I am a person who loves spending time with <br>family members and like to have <br>fun when I am doing anything.</p>
+    <!-- add a pic and details -->
+        <ul style="text-align:left;">
+        <li><a href="Projects.html"><button type="button" title="Projects/Accomplishments I have made during the time I have been coding throughout the various programming languages I have been taught." style=color:red>Projects</button></a></li>
+        
     </ul>
+    <p style="text-align:left;">I love to code so when I am coding in my free <br>time I like to do small projects and make whatever <br>I am making fully functional. Past projects I have done <br>include code from Python, C#, and HTML.</p>
 </div>
-<div class="item2"><h1 style=text-align:center>Home Page</h1></div>
+<div class="item2"><h1 style=text-align:center><u>Home Page</u></h1></div>
 <div class="item3">
-    <p style=font-size:140%><em>Module 4 Project</em></p>
+    <p style=font-size:140% id="top"><em>Module 4 Project</em></p>
 </div>
+
 <div class="item4">
     <p>Middle</p>
     
 </div>
 <div class="itemleftside">
-    <p>left</p>
+    <p style="color:red;"><br><br><u>THIS IS THE HOMEPAGE ABOUT ME WHERE YOU'LL FIND MANY THINGS ABOUT ME AND WHAT I'VE DONE IN THE PAST AND WHAT I PLAN TO DO IN THE FUTURE, FEEL FREE TO LOOK AROUND. IF YOU WOULD LIKE TO LEARN MORE ABOUT ME THERE IS A PAGE IN THE "GO TO'S" SECTION WHERE YOU'LL ALSO FIND THE PROJECTS PAGE WHERE YOU'LL SEE SMALL PROJECTS I HAVE DONE IN THE PAST.</u></p>
     
 </div>
 <div class="above">
-    <p>ABOVE</p>
+    <!-- maybe add a button for "More About Me" --> 
+    <img src="https://cdn.discordapp.com/attachments/783815567299575828/969061305384333362/abtme_2.JPG" alt="Image of myself" width="200" height="200">
+    <p>I am seemingly boring at first but once you get to know me <br>and we spend a bit of time together I feel like we would get along. <br>i don't like to talk to many new people that often mainly because I like doing my own things a lot.</p>
 </div>
-<div class="rightside"><p>right side</p></div>
+<div class="rightside"><p></p></div>
 </div>
 
-</header>
+<!--
+<li> <a href="#bottom"><button type="button" title="Reach the bottom of the page." style=color:red>Bottom of page</button></a></li>
+<a href="#top" id="bottom"><button type="button" title="Reach the top of the page" style="color:red;">Top</button></a>
+-->
 </html>
-  
-  
-  
-
