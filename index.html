@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <!-- ADD IN A BACKGROUND -->
-<html>
+<html style="background-color:lightblue">
     <style>
         .grid-container{
             display:grid;
@@ -13,11 +12,12 @@
      grid-row-end:3;
  }
  .item4{
-     grid-column-start:2;
-     grid-row-end:5;
-     
+     grid-column-start:1;
+     grid-row-end:1;
+
  }
- 
+ p {font-size:120%;}
+ h3{font-size:110%;}
     </style>
     <script>
       // Create a button element
@@ -37,50 +37,60 @@
 
       document.body.appendChild(button)
     </script>
-  
+
 <!-- Button ref
 <a href ="https://herewecode.io/blog/create-button-javascript/"><button type="button">Can you click me?</button></a>
 -->
 
     <div class="grid-container">
-    <div class="item1st" style=grid-row-start:>
-    <h3 style=text-align:left>Go To's</h3>
+    <div class="item1st" style="background-color:#E27D60">
+    <h3 style=text-align:left;font-size:180%;>Go To's</h3>
     <ul style="text-align:left;">
-        
+
     <!-- add a pic and details -->
-        <li><a href="About.html"><button type="button" title="For those who want a little bit more of an overview on how I have been living throughout the years and how it has affected me as a person that I am today." style=color:red;>More About Me</button></a></li>
+        <li><a href="about.html"><button type="button" title="For those who want a little bit more of an overview on how I have been living throughout the years and how it has affected me as a person that I am today." style=color:red;>More About Me</button></a></li>
         </ul>
         <p style=text-align:left>I am a person who loves spending time with <br>family members and like to have <br>fun when I am doing anything.</p>
     <!-- add a pic and details -->
         <ul style="text-align:left;">
-        <li><a href="Projects.html"><button type="button" title="Projects/Accomplishments I have made during the time I have been coding throughout the various programming languages I have been taught." style=color:red>Projects</button></a></li>
-        
+        <br><br>
+        <li><a href="projects.html"><button type="button" title="Projects/Accomplishments I have made during the time I have been coding throughout the various programming languages I have been taught." style=color:red>Projects</button></a></li>
+
     </ul>
     <p style="text-align:left;">I love to code so when I am coding in my free <br>time I like to do small projects and make whatever <br>I am making fully functional. Past projects I have done <br>include code from Python, C#, and HTML.</p>
 </div>
-<div class="item2"><h1 style=text-align:center><u>Home Page</u></h1></div>
+<div class="item2"><h1 style=text-align:center;background-color:lightblue><u>Home Page</u></h1></div>
 <div class="item3">
     <p style=font-size:140% id="top"><em>Module 4 Project</em></p>
 </div>
 
 <div class="item4">
-    <p>Middle</p>
-    
+    <p></p>
+
 </div>
 <div class="itemleftside">
-    <p style="color:red;"><br><br><u>THIS IS THE HOMEPAGE ABOUT ME WHERE YOU'LL FIND MANY THINGS ABOUT ME AND WHAT I'VE DONE IN THE PAST AND WHAT I PLAN TO DO IN THE FUTURE, FEEL FREE TO LOOK AROUND. IF YOU WOULD LIKE TO LEARN MORE ABOUT ME THERE IS A PAGE IN THE "GO TO'S" SECTION WHERE YOU'LL ALSO FIND THE PROJECTS PAGE WHERE YOU'LL SEE SMALL PROJECTS I HAVE DONE IN THE PAST.</u></p>
-    
+    <p style="color:red;FONT-SIZE:110%"><br><br>THIS IS THE HOMEPAGE WHERE YOU'LL FIND SOME THINGS ABOUT ME AND WHAT I'VE DONE FEEL FREE TO LOOK AROUND. IF YOU WOULD LIKE TO LEARN MORE ABOUT ME THERE IS A PAGE IN THE "GO TO'S" SECTION WHERE YOU'LL ALSO FIND THE PROJECTS PAGE WHERE YOU'LL SEE SMALL PROJECTS I HAVE DONE IN THE PAST.</p>
+
 </div>
-<div class="above">
-    <!-- maybe add a button for "More About Me" --> 
-    <img src="https://cdn.discordapp.com/attachments/783815567299575828/969061305384333362/abtme_2.JPG" alt="Image of myself" width="200" height="200">
-    <p>I am seemingly boring at first but once you get to know me <br>and we spend a bit of time together I feel like we would get along. <br>i don't like to talk to many new people that often mainly because I like doing my own things a lot.</p>
+<div class="above" style="background-color:#8D8741">
+    <!-- maybe add a button for "More About Me" -->
+
+
+    <h2>About me</h2>
+    <img src="https://live.staticflickr.com/65535/52035666442_0b696b1457_c.jpg" alt="Image of myself" width="200" height="200">
+    <p>I am seemingly boring at first but once you get to know me <br>and we spend a bit of time together I feel like we would get along. I don't like to talk to many new people that often mainly because I like doing my own things a lot.</p>
 </div>
-<div class="rightside"><p></p></div>
+<div class="rightside" style=background-color:#BC986A;padding:10px;><h2>My Projects</h2><img src="https://live.staticflickr.com/65535/52036754133_16ee88d453_b.jpg" alt="Small snippet of project" width="400" height="250">
+    <p>If you couldn't already tell from the picture above I love to use Python as one of the main programming language that I use. From the image above it is a small portion of a fully functional contact book I was making as a finals for one of my years in high school more about projects I have done and  that I plan to do will be on the "Projects" page</p></div>
+<div class="beside" style=background-color:#8D8741>
+
 </div>
+    </div>
 
 <!--
 <li> <a href="#bottom"><button type="button" title="Reach the bottom of the page." style=color:red>Bottom of page</button></a></li>
 <a href="#top" id="bottom"><button type="button" title="Reach the top of the page" style="color:red;">Top</button></a>
 -->
 </html>
+
+
