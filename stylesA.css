@@ -1,0 +1,39 @@
+img{
+  float:right;
+  padding:20px;
+}
+
+aside{
+text-align:right;
+padding:1 px;
+}
+
+.grid-container{
+display:grid;
+grid-template-columns:auto auto;
+}
+
+    
+.grid-container1{
+display:grid;
+grid-template-columns:auto auto auto;
+border:none;
+
+}
+
+.item3{
+grid-column-start:1;
+grid-column-end:3;
+
+}
+
+div{
+text-align:center;
+border:1px solid black}
+h3{
+    font-size:150%;
+}
+.pitem{
+    border:none
+}
+.item2nd{grid-column-start:2}
